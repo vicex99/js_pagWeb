@@ -32,6 +32,10 @@ body {
     grid-gap: 60px;
 }
 
+.constainer p{
+  text-align: left;
+}
+
 /* Header */
 
 header{
@@ -106,14 +110,13 @@ header button {
 
 footer {
     grid-area: footer;
-
-    color: #ef5350;
+    background-color: grey;
     text-align: center;
     padding: 20px 0;
 }
 
 footer p {
-    color: #777;
+    color: #FAFAD2;
     font-size: 12px;
     padding: 10px;
 }
