@@ -18,18 +18,19 @@ body {
 /* Page Layout */
 
 .container{
+  /*hace que no salgan los elementos por que se ha hecho la ventana más pequeña que estos*/
     max-width: 900px;
     background-color: #fff;
     margin: 0 auto;
     padding: 0 60px;
 
-    display: grid;
+    /*display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-areas:
         "header header"
         "main sidebar"
         "footer footer";
-    grid-gap: 60px;
+    grid-gap: 60px;*/
 }
 
 .constainer p{
@@ -39,13 +40,13 @@ body {
 /* Header */
 
 header{
-    grid-area: header;
+    /*grid-area: header;*/
 
     color: #ef5350;
     padding: 20px 0;
 
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    /*display: grid;
+    grid-template-columns: 1fr 1fr;*/
 }
 
 header nav {
@@ -93,9 +94,8 @@ header button {
 }
 
 .main img {
-    width: 100%;
+    width: 800px;
 }
-
 
 /* Sidebar */
 
@@ -109,7 +109,7 @@ header button {
 /* Footer */
 
 footer {
-    grid-area: footer;
+/*    grid-area: footer;*/
     background-color: grey;
     text-align: center;
     padding: 20px 0;
