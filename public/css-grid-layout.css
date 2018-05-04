@@ -24,29 +24,18 @@ body {
     margin: 0 auto;
     padding: 0 60px;
 
-    /*display: grid;
-    grid-template-columns: 3fr 1fr;
-    grid-template-areas:
-        "header header"
-        "main sidebar"
-        "footer footer";
-    grid-gap: 60px;*/
 }
 
 .constainer p{
   text-align: left;
 }
 
-/* Header */
-
 header{
-    /*grid-area: header;*/
+
 
     color: #ef5350;
     padding: 20px 0;
 
-    /*display: grid;
-    grid-template-columns: 1fr 1fr;*/
 }
 
 header nav {
@@ -54,10 +43,6 @@ header nav {
 
     list-style: none;
 
-/*  This did not work well, inline-block used instead */
-/*  display: grid;
-    grid-template-columns: auto 1fr 1fr;
-    align-items: end;*/
 }
 
 header nav li {
@@ -76,10 +61,7 @@ header button {
     text-transform: uppercase;
 }
 
-/* Main Section */
-
 .main {
-    grid-area: main;
 
     text-align: center;
 }
@@ -97,19 +79,14 @@ header button {
     width: 800px;
 }
 
-/* Sidebar */
-
 .sidebar {
-    grid-area: sidebar;
 
     border: 1px solid #a2a2a2;
     padding: 20px;
 }
 
-/* Footer */
-
 footer {
-/*    grid-area: footer;*/
+
     background-color: grey;
     text-align: center;
     padding: 20px 0;
