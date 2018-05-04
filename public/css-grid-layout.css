@@ -24,6 +24,13 @@ body {
     margin: 0 auto;
     padding: 0 60px;
 
+    display:grid;
+    grid-template-areas:
+      "header header"
+      "main nav"
+      "footer footer";
+
+
 }
 
 .constainer p{
@@ -32,6 +39,7 @@ body {
 
 header{
 
+    grid-area:header;
 
     color: #ef5350;
     padding: 20px 0;
@@ -63,7 +71,10 @@ header button {
 
 .main {
 
+    grid-area: main;
+
     text-align: center;
+
 }
 
 .main h2 {
@@ -75,17 +86,21 @@ header button {
     margin-bottom: 50px;
 }
 
-.main img {
+.img img {
     width: 800px;
 }
 
 .sidebar {
+
+    grid-area: nav;
 
     border: 1px solid #a2a2a2;
     padding: 20px;
 }
 
 footer {
+
+    grid-area: footer;
 
     background-color: grey;
     text-align: center;
